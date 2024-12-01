@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://bitnami/elasticsearch:7.17.25 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/elasticsearch:7.17.25-arm64
+              skopeo copy --override-arch arm64 docker://cruse/metrics-server-arm:v0.3.6 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/metrics-server-arm:v0.3.6
  
