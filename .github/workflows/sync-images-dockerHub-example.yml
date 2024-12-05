@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://nacos/nacos-server:v2.4.3 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/nacos-server:v2.4.3-arm64
+              skopeo copy --override-arch arm64 docker://redis:5.0.14 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/redis:5.0.14-arm64
  
