@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://dreamacro/clash:v1.18.0 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/clash:v1.18.0-arm64
+              skopeo copy --override-arch arm64 docker://ghcr.io/octohelm/harbor/harbor-registryctl:v2.9.0 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/harbor-registryctl:v2.9.0-arm64
  
