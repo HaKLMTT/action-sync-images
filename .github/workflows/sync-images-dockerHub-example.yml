@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://debian:buster-slim docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/debian:buster-slim-arm64
+              skopeo copy --override-arch arm64 docker://coredns/coredns:1.8.0 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/coredns:1.8.0-arm64
  
