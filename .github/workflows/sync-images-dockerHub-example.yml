@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://kubesphere/k8s-dns-node-cache:1.22.20 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/k8s-dns-node-cache:1.22.20-arm64
+              skopeo copy --override-arch arm64 docker://calico/kube-controllers:v3.27.4-52-g62ef945dc95c docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/kube-controllers:v3.27.4-arm64
  
