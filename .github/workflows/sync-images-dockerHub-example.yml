@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://maven:3.5-jdk-8 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/maven:3.5-jdk-8-arm64
+              skopeo copy --override-arch arm64 docker://maven:3.8-jdk-8 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/maven:3.8-jdk-8-arm64
  
