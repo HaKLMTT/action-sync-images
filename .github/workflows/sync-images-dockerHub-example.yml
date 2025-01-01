@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://hxsoong/kylin:v10-sp3 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/kylin:v10-sp3
+              skopeo copy --override-arch amd64 docker://hxsoong/kylin:v10-sp2 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/kylin:v10-sp2
