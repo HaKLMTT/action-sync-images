@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://elasticsearch:7.17.27 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/elasticsearch:7.17.27
+              skopeo copy --override-arch amd64 docker://postgres:13 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/postgres:13
