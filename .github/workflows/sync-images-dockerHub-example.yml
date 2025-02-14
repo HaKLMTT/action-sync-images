@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://temporalio/auto-setup:1.26.2 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/temporalio-auto-setup:1.26.2
+              skopeo copy --override-arch amd64 docker://temporalio/admin-tools:1.26.2 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/temporalio-admin-tools:1.26.2
