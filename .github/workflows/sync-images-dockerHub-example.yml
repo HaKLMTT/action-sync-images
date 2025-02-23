@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://apache/apisix-dashboard:3.0.1-alpine docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/apisix-dashboard:3.0.1-alpine
+              skopeo copy --override-arch amd64 docker://apisix:3.6.0-debian docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/apisix:3.6.0-debian
