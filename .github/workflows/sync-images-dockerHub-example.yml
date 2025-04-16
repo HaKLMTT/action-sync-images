@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch arm64 docker://adoptopenjdk/openjdk8:ubuntu-jre-nightly docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/openjdk8:ubuntu-jre-nightly
+              skopeo copy --override-arch arm64 docker://nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/nvidia:v1
