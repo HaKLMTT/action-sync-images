@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://debian:stable-slim  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/debian:stable-slim
+              skopeo copy --override-arch amd64 docker://golang:1.24.2  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/golang:1.24.2
