@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://bitnami/consul:1.21.0  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/consul:1.21.0
+              skopeo copy --override-arch amd64 docker://jaegertracing/all-in-one:1.68.0  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/jaegertracing:1.68.0
