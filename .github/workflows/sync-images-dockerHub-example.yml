@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://timescale/timescaledb:2.19.3-pg15  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/timescaledb:2.19.3-pg15
+              skopeo copy --override-arch amd64 docker://bitnami/redis:8.0  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/redis:8.0
