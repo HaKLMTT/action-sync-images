@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://mysql:8.0  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/mysql:8.0
+              skopeo copy --override-arch amd64 docker://redis  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/redis:latest
