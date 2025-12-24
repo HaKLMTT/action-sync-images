@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-              skopeo copy --override-arch amd64 docker://nginx  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/nginx:latest
+              skopeo copy --override-arch amd64 docker://ubuntu:24.04  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/ubuntu:24.04
