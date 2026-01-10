@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch amd64 docker://quay.io/calico/cni:v3.31.2  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/cni:v3.31.2
+        skopeo copy --override-arch amd64 docker://quay.io/calico/node:v3.31.2  docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/node:v3.31.2
