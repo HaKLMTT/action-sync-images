@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch amd64 docker://debian:bookworm-slim docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/downloads:debian-bookworm-slim
+        skopeo copy --override-arch amd64 docker://langgenius/dify-api:1.14.0 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/downloads:langgenius-dify-api-1.14.0
