@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch amd64 docker://wangbowen/kkfileview:5.1.0 docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/kkfileview:5.1.0
+        skopeo copy --override-arch amd64 docker://minio/minio:RELEASE.2024-12-18T13-15-44Z docker://registry.cn-zhangjiakou.aliyuncs.com/cyct-ai/minio:RELEASE.2024-12-18T13-15-44Z
